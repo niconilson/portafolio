@@ -1,0 +1,49 @@
+img {
+    width: 8%;
+    border-radius: 8%;
+    float: none;
+}
+
+/*.nombre {
+    animation-duration: 3s;
+    animation-name: slidein;    
+}*/
+
+@keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 20%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 20%;
+    }
+  }
+.subt {
+background-color: rgb(113, 139, 155);
+}
+
+table {
+   border-collapse: collapse;    
+}
+
+.borde {
+    border: 1px solid black;
+    padding: 5px;
+}
+ 
+body {
+    background-color: gainsboro;
+}
+
+#desc {
+  letter-spacing: 1px;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#estado1, #estado2, #estado3 {
+  text-decoration: underline;
+}
